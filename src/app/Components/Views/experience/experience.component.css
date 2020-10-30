@@ -1,0 +1,21 @@
+#title{
+    padding: 5rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#text {
+    margin: 2rem;
+    text-align: justify;
+    font-weight: bold;
+}
+h1{
+    font-weight: bold;
+}
+#imageText{
+    width: 50%;
+}
+.hovereable:hover {
+    transform: scale(1.05, 1.05);
+  }
