@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/chota/dist/chota.min.css",
               "src/styles.css"
             ],
             "scripts": []

@@ -1,10 +1,10 @@
-*{
-    background-color: #332e2e;
-}
-#Logo{
-    width: 70%;
-    height: 90%;
+.nav {
+    height: 10rem;
+    background-color: #00880044;
 }
 a{
     color: whitesmoke;
+}
+#Logo {
+    max-height: 5rem;
 }
