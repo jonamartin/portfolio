@@ -1,12 +1,15 @@
 #title{
     padding: 5rem;
     text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 
 #text {
     margin: 2rem;
     text-align: justify;
+    font-weight: bold;
 }
 
 #imageText{

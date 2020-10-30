@@ -1,3 +1,6 @@
+*{
+    font-weight: bold;
+}
 .nav {
     height: 10rem;
     background-color: #00880044;
