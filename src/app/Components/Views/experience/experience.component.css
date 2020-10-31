@@ -19,3 +19,7 @@ h1{
 .hovereable:hover {
     transform: scale(1.05, 1.05);
   }
+
+#SHIFTA, #PICTOMENU {
+    margin: 0 0 3rem 0;
+}

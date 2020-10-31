@@ -4,6 +4,7 @@ import { AboutMeComponent } from './Components/Views/about-me/about-me.component
 import { ExperienceComponent } from './Components/Views/experience/experience.component';
 
 const routes: Routes = [
+  { path: '', component: AboutMeComponent},
   { path: 'about-me', component: AboutMeComponent },
   { path: 'experience', component: ExperienceComponent },
 ];
