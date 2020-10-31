@@ -1,0 +1,7 @@
+[build]
+  publish = "dist/static"          // <-- new project directory
+  command = "npm run jam-prod"     // <-- new build command
+[[redirects]]
+  from="/*"
+  to="/index.html"
+  status=200

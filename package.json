@@ -7,7 +7,11 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "scully": "scully",
+    "scully:serve": "scully serve",
+    "jam": "ng build && npm run scully",
+    "jam-prod": "ng build --prod && npm run scully -- --nw"
   },
   "private": true,
   "dependencies": {
@@ -19,6 +23,9 @@
     "@angular/platform-browser": "~10.0.11",
     "@angular/platform-browser-dynamic": "~10.0.11",
     "@angular/router": "~10.0.11",
+    "@scullyio/init": "^1.0.1",
+    "@scullyio/ng-lib": "^1.0.0",
+    "@scullyio/scully": "^1.0.0",
     "aos": "^2.3.4",
     "chota": "^0.8.0",
     "rxjs": "~6.5.5",

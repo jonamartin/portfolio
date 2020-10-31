@@ -1,9 +1,9 @@
 /**
- * This file includes polyfills needed by Angular and is loaded before the app.
- * You can add your own extra polyfills to this file.
+ * This file includes yfills needed by Angular and is loaded before the app.
+ * You can add your own extra yfills to this file.
  *
  * This file is divided into 2 sections:
- *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.
+ *   1. Browser yfills. These are applied before loading ZoneJS and are sorted by browsers.
  *   2. Application imports. Files imported after ZoneJS that should be loaded before your main
  *      file.
  *
@@ -15,7 +15,7 @@
  */
 
 /***************************************************************************************************
- * BROWSER POLYFILLS
+ * BROWSER YFILLS
  */
 
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
@@ -24,7 +24,7 @@
 /**
  * Web Animations `@angular/platform-browser/animations`
  * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
- * Standard animation support in Angular DOES NOT require any polyfills (as of Angular 6.0).
+ * Standard animation support in Angular DOES NOT require any yfills (as of Angular 6.0).
  */
 // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
 
@@ -61,3 +61,9 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+
+/***************************************************************************************************
+* SCULLY IMPORTS
+*/
+// tslint:disable-next-line: align
+import 'zone.js/dist/task-tracking';
