@@ -12,3 +12,15 @@ a{
 #Logo {
     max-height: 5rem;
 }
+
+@media only screen and (orientation: portrait) {
+    #Logo{
+        max-height: 3rem;
+    }
+    .isNav .col {
+        flex: auto;
+    }
+    .dropdown {
+        width: 10%;
+    }
+}

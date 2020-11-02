@@ -1,4 +1,4 @@
-<nav class="nav">
+<nav class="nav hide-xs hide-pr">
   <div class="nav-left">
     <app-menulink  class="is-center" path="/">Acerca de Mí</app-menulink>
     <app-menulink  class="is-center" path="experience">Experiencia y trabajos</app-menulink>
@@ -9,7 +9,21 @@
     </app-menulink>
   </div>
   <div class="nav-right">
-        <!-- <a>Where i go?</a> -->
         <a (click)="darkMode()" class="button outline">Switch Mode ;)</a>
+  </div>
+</nav>
+<nav class="row isNav hide-sm hide-md hide-lg hide-pr">
+  <details class="col dropdown is-center">
+    <summary class="outline">=</summary>
+    <app-menulink  class="is-center" path="/">Acerca de Mí</app-menulink>
+    <app-menulink  class="is-center" path="experience">Experiencia y trabajos</app-menulink>
+  </details>
+  <div class="col is-center">
+    <app-menulink path="/">
+      <img id="Logo" data-aos="zoom-in-down" src="../../../../assets/Logo.png" alt="Logo">
+    </app-menulink>
+  </div>
+  <div class="col">
+    <a (click)="darkMode()" class="button outline">;)</a>
   </div>
 </nav>

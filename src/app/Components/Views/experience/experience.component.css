@@ -5,6 +5,7 @@
     font-size: 2rem;
     font-weight: bold;
 }
+
 #text {
     margin: 2rem;
     text-align: justify;
@@ -22,4 +23,10 @@ h1{
 
 .experienceElement  {
     margin: 0 0 3rem 0;
+    
+}
+@media only screen and (orientation: portrait) {
+    .experienceElement:nth-child(even){
+        flex-flow: column-reverse wrap;
+    }
 }
