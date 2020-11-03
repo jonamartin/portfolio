@@ -3,6 +3,7 @@
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 
@@ -14,6 +15,7 @@
 
 #imageText{
     width: 50%;
+    margin-bottom: 3rem;
 }
 
 @media only screen and (orientation: portrait) {
