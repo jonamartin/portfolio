@@ -12,11 +12,11 @@
         <a (click)="darkMode()" class="button outline">Switch Mode ;)</a>
   </div>
 </nav>
-<nav class="row isNav hide-sm hide-md hide-lg hide-pr">
-  <details class="col dropdown is-center">
-    <summary class="outline">=</summary>
-    <app-menulink  class="is-center" path="/">Acerca de Mí</app-menulink>
-    <app-menulink  class="is-center" path="experience">Experiencia y trabajos</app-menulink>
+<nav class="row is-marginless isNav hide-sm hide-md hide-lg hide-pr">
+  <details #details class="col dropdown is-center">
+    <summary class="outline button"></summary>
+    <app-menulink (click)="dropDownClose()" class="dropElement row" path="/">Acerca de Mí</app-menulink>
+    <app-menulink (click)="dropDownClose()" class="dropElement row" path="experience">Experiencia y trabajos</app-menulink>
   </details>
   <div class="col is-center">
     <app-menulink path="/">
