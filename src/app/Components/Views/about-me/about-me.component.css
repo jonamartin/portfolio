@@ -15,3 +15,9 @@
 #imageText{
     width: 50%;
 }
+
+@media only screen and (orientation: portrait) {
+    .about:nth-child(even){
+        flex-flow: column-reverse wrap;
+    }
+}
