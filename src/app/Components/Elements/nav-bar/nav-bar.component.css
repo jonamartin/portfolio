@@ -13,12 +13,17 @@ a{
     max-height: 5rem;
 }
 
+.dropElement{
+    width: 180px;
+}
+
 @media only screen and (orientation: portrait) {
     #Logo{
         max-height: 3rem;
     }
     .isNav .col {
         flex: auto;
+        height: 5rem;
     }
     .dropdown {
         width: 10%;

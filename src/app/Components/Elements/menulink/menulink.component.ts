@@ -8,7 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class MenulinkComponent implements OnInit {
 
  @Input() public path: string;
-
+ @Input() public click: Function;
+   
   constructor() {}
 
   ngOnInit(): void {
