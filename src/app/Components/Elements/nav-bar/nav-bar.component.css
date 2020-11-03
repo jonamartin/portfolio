@@ -15,6 +15,7 @@ a{
 
 .dropElement{
     width: 180px;
+    color: #14854F;
 }
 
 @media only screen and (orientation: portrait) {

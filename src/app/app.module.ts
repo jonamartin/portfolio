@@ -8,6 +8,7 @@ import { ExperienceComponent } from './Components/Views/experience/experience.co
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { MenulinkComponent } from './Components/Elements/menulink/menulink.component';
 import {darkModeService} from './services/dark-mode.service';
+import {languageToggleService} from './services/language-toggle.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import {darkModeService} from './services/dark-mode.service';
     AppRoutingModule,
     ScullyLibModule
   ],
-  providers: [darkModeService],
+  providers: [darkModeService, languageToggleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
