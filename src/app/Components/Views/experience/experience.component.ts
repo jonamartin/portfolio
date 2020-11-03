@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { languageToggleService } from 'src/app/services/language-toggle.service';
 
 @Component({
   selector: 'app-experience',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
-  constructor() { }
+  constructor(public languageToggleService : languageToggleService) { }
 
   ngOnInit(): void {
   }

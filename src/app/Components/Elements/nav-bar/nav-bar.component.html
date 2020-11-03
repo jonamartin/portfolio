@@ -1,12 +1,15 @@
 <nav class="nav hide-xs hide-pr">
   <div class="nav-left">
-    <app-menulink  class="is-center" path="/">Acerca de Mí</app-menulink>
-    <app-menulink  class="is-center" path="experience">Experiencia y trabajos</app-menulink>
+    <app-menulink  class="is-center" path="/">{{languageToggleService.getText('sobre-mi-Titulo')}}</app-menulink>
+    <app-menulink  class="is-center" path="experience">{{languageToggleService.getText('experiencia-Titulo')}}</app-menulink>
   </div>
   <div class="nav-center">
     <app-menulink class="brand" path="/">
       <img id="Logo" data-aos="zoom-in-down" src="../../../../assets/Logo.png" alt="Logo">
     </app-menulink>
+  </div>
+  <div class="nav-right">
+    <a (click)="languageToggleService.changeLanguage()" class="button outline">ES|EN</a>
   </div>
   <div class="nav-right">
         <a (click)="darkMode()" class="button outline">Switch Mode ;)</a>
@@ -15,8 +18,9 @@
 <nav class="row is-marginless isNav hide-sm hide-md hide-lg hide-pr">
   <details #details class="col dropdown is-center">
     <summary class="outline button"></summary>
-    <app-menulink (click)="dropDownClose()" class="dropElement row" path="/">Acerca de Mí</app-menulink>
-    <app-menulink (click)="dropDownClose()" class="dropElement row" path="experience">Experiencia y trabajos</app-menulink>
+    <app-menulink (click)="dropDownClose()" class="dropElement row" path="/">{{languageToggleService.getText('sobre-mi-Titulo')}}</app-menulink>
+    <app-menulink (click)="dropDownClose()" class="dropElement row" path="experience">{{languageToggleService.getText('experiencia-Titulo')}}</app-menulink>
+    <a (click)="languageToggleService.changeLanguage(); dropDownClose()" class="dropElement row">ES|EN</a>
   </details>
   <div class="col is-center">
     <app-menulink path="/">
