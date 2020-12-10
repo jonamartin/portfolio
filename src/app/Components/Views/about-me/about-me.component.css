@@ -1,4 +1,4 @@
-#title{
+.title{
     padding: 5rem;
     text-align: center;
     font-size: 2rem;
@@ -7,12 +7,15 @@
 }
 
 
-#text {
-    margin: 2rem;
+.text {
+    padding: 2rem;
     text-align: justify;
     font-weight: bold;
+    margin: 0 0 3rem 0;
 }
-
+.skills p{
+    text-align: center;
+}
 #imageText{
     width: 50%;
     margin-bottom: 3rem;

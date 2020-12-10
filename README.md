@@ -1,6 +1,6 @@
 # Portfolio
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7.
+¡Hola! Soy Jonathan Martin, aunque me dicen Gabo.
+Este es el repo de mi portfolio, donde quiero de tanto en tanto (en tiempos libres) ir probando ideas de codigo, librerias, frameworks e inclusive escribir sobre algunas cosas que me parecen interesantes; ademas de contar sobre otros proyectos y trabajos que hice o tengo en marcha. El proyecto esta publicado en mi dominio web `http://develope.ar` gracias a netlify ¡Gracias por visitarme! 
 
 ## Development server
 

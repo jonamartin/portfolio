@@ -1,0 +1,18 @@
+.icono{
+    margin: 2rem;
+}
+
+.icono img {
+    height: 4rem;
+    width: auto;
+}
+
+footer{
+    background-color: #00880044;
+}
+
+@media only screen and (orientation: portrait) {
+    .links{
+        justify-content: center;
+    }
+}

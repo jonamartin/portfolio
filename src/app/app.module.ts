@@ -9,6 +9,7 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 import { MenulinkComponent } from './Components/Elements/menulink/menulink.component';
 import {darkModeService} from './services/dark-mode.service';
 import {languageToggleService} from './services/language-toggle.service';
+import { FooterComponent } from './Components/Elements/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {languageToggleService} from './services/language-toggle.service';
     NavBarComponent,
     AboutMeComponent,
     ExperienceComponent,
-    MenulinkComponent
+    MenulinkComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
